@@ -1,0 +1,38 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .link {
+        display: none;
+    }
+    .link:last-child {
+        display: block;
+    }
+    .line {
+        display: none;
+    }
+    .content h1 {
+        font-size: 48px;
+        letter-spacing: -1.92px;
+        padding-left: 20px;
+
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .web-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-footer {
+        display: block;
+    }
+    .country {
+        display: flex;
+        justify-content: flex-end;
+        width: 39%;
+    }
+}
